@@ -31,7 +31,7 @@ Elige: """
         opcion = input(menu)
         if opcion == "a":
             producto = input("\nIngresa producto: ")
-            # Comprobar si no existe
+           
             posible_descripcion = buscar_descripcion_producto(producto)
             if posible_descripcion:
                 print(f"El producto'{producto}' ya existe")
@@ -52,7 +52,7 @@ Elige: """
 
         if opcion == "d":
             productos = obtener_productos()
-            print("\n========Lista de productos========\n")
+            print("\n ***** lista de los productos *****\n")
             for producto in productos:
                 print(producto[0])
         if opcion  == "e":
