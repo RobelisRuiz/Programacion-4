@@ -1,3 +1,4 @@
+#ROBELIS RUIZ 8-976-2485
 import sqlite3
 base_datos = "diccionario.db"
 def obtener():
