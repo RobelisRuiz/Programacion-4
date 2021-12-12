@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de Programacion </title>
+</head>
+<body>
+    <!-- Primera Sección -->
+    <div id="primera-seccion">
+        <div id="barra-navegacion">
+            <p id="logo"><span style="color: #019ae7e1;">Tarea #9</span></p>
+            <p id="logo"><span style="color: #035f8ee1;">Aldes Quintero</span></p>
+            </nav>
+        </div>
+
+        <div id="primera-seccion-contenido">
+            <hr>
+            <p><a "Diccionario" Class="btn-blue">Diccionario Slang Panameño, Tarea de Programación IV</a></p> 
+            <p>Selecciona una de las opciones ¡Por favor!</p> 
+            <p><a href="/AgregarPalabra" Class="btn-azul"> Agregar Palabra</a></p> 
+            <p><a href="/EditarPalabra" Class="btn-azul"> Editar Palabra</a></p>
+            <p><a href="/ListadoPalabras" Class="btn-azul"> Ver Lista de Palaba</a></p>
+            <p><a href="/EliminarPalabra" Class="btn-azul"> Eliminar Palabra</a></p>
+            <p><a href="/BuscarSignificado" Class="btn-azul">  Buscar Significado</a></p>
+                 
+                 
+        </div>
+    </div> 
+
+<head>
+  <style>
+
+      .btn-blue {
+              text-decoration: none;
+              color: white;
+              font-size: 2rem;
+              font-family: 'Montserrat', sans-serif;
+              text-transform: uppercase;
+              font-weight: 1000;
+              background-color: #245f9a;;
+              padding: 2rem 2rem;
+              border-radius: 100px;
+              display: inline-block;
+          
+              /* Aplica para Flexbox */
+              align-self: center;
+          }
+
+          body{
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0;
+              height: 100vh !important;
+              font-family: 'Noto Sans', sans-serif;
+              color: #222222;
+          }
+          
+          /* comienza clases reutilizables */
+    
+
+          .btn-azul {
+              text-decoration: none;
+              color: white;
+              font-size: 0.8rem;
+              font-family: 'Montserrat', sans-serif;
+              text-transform: uppercase;
+              font-weight: 700;
+              background-color: #2086fb;;
+              padding: 1rem 2rem;
+              border-radius: 20px;
+              display: inline-block;
+          
+              /* Aplica para Flexbox */
+              align-self: center;
+          }
+          
+          
+          /* terminan clases reutilizables */
+          
+          /* comienza primera sección */
+          
+          #primera-seccion {
+            background: linear-gradient(rgba(13, 112, 199, 0.35), rgba(55, 192, 241, 0.446)), url(diccionario.jpg);
+              background-attachment: fixed;
+              height: 110vh;
+              color: white;
+          }
+          
+          #barra-navegacion {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              margin: auto 5rem;
+              padding-top: 2rem;
+              padding-bottom: 2rem;
+          }
+          
+          #logo {
+              margin: 0;
+              text-transform: uppercase;
+              font-weight: 700;
+              font-stretch: wider;
+          }
+          
+          nav > a {
+              text-decoration: none;
+              color: white;
+              padding-left: 1rem;
+              padding-right: 1rem;
+          }
+          
+          nav > a:hover {
+              color: #0350ae;
+          }
+          
+          #primera-seccion-contenido {
+              margin-top: 8rem;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+          }
+          
+          #primera-seccion-contenido > p {
+              text-transform: capitalize;
+              font-family: 'Montserrat', sans-serif;
+              font-size: 1.5rem;
+              margin-bottom: 0.5rem;
+              font-weight: bold;
+          }
+          
+          #primera-seccion-contenido > hr {
+              width: 4.5rem;
+              border-color: #0350ae;
+          }
+          
+          #primera-seccion-contenido > h1 {
+              font-family: 'Montserrat', sans-serif;
+              text-transform: uppercase;
+              font-size: 4rem;
+              font-weight: 700;
+              margin-bottom: 2.5rem;
+          }
+          
+          /* termina primera sección */
+
+  </style>
+</head>
